@@ -58,6 +58,8 @@ public class HistoryChartFragment extends Fragment {
         }
         lineDataSet.setLineWidth(2);
 
+        lineDataSet.setDrawValues(false);
+
         lineDataSets.add(lineDataSet);
 
         lineChart.setData(new LineData(xAXES, lineDataSets));
